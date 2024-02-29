@@ -126,7 +126,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
+    margin-top: 20px;
 
     & h4 {
         font-size: 18px;
@@ -221,6 +221,10 @@ body {
     background-image: url(img/Rectangle\ 722.png);
 }
 
+.dark-bg .img img {
+    width: 100%;
+}
+
 .name p {
     font-size: 15px;
 }
@@ -231,6 +235,7 @@ body {
 
 .review-section .review-img {
     margin-top: -50px;
+    width: 100%;
 }
 
 footer p {
