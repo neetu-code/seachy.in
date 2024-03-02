@@ -59,6 +59,8 @@ body {
     background-size: cover;
     border-radius: 8px;
     width: 100%;
+
+
 }
 
 .bg-overlay {
@@ -247,6 +249,12 @@ body {
     }
 }
 
+.bg-img-light {
+
+    & span {
+        color: #0072B1;
+    }
+}
 
 .laptop-img img {
     width: 100%;
@@ -256,9 +264,9 @@ body {
     display: none;
 }
 
-/* .laptop-img .limited-seat {
-    display: none;
-} */
+.check-list p {
+    font-size: 18px;
+}
 
 .dark-bg {
     background-image: url(img/Rectangle\ 722.png);
@@ -325,8 +333,12 @@ footer p {
     }
 
     .bg-image {
-
         width: 100%;
+
+        & .check-list p {
+            font-size: 11px;
+        }
+
     }
 
     .display-none {
@@ -418,6 +430,13 @@ footer p {
     .get-section .register {
 
         display: none;
+    }
+
+    .bg-img-light {
+        background-image: url(img/s\ 1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .dark-bg .register {
