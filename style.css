@@ -427,4 +427,11 @@ footer p {
     .limited-seat {
         display: block;
     }
+
+    .last-section {
+
+        & h4 {
+            font-size: 24px;
+        }
+    }
 }
