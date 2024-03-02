@@ -481,3 +481,60 @@ footer p {
     }
 
 }
+
+@media screen and (max-width: 820px) {
+    .display-none {
+        display: none;
+    }
+
+    .timer {
+        padding: 0 auto;
+    }
+
+    .register {
+        margin: 20px auto 0 auto;
+
+    }
+
+    .get-section .register {
+
+        display: none;
+    }
+
+    .laptop-img .register {
+        display: block;
+    }
+
+    .laptop-img .limited-seat {
+        display: block;
+    }
+
+    .dark-bg .register {
+        width: 100%;
+
+    }
+
+    .register {
+        height: 64px;
+
+        & span {
+            display: none;
+        }
+    }
+
+    .register-2 {
+        height: 64px;
+
+        & span {
+            display: none;
+        }
+    }
+
+    .last-section h4 {
+        font-size: 28px;
+    }
+
+    .limited-seat {
+        display: block;
+    }
+}
