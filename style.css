@@ -12,6 +12,8 @@ body {
     padding-top: 40px;
 }
 
+
+
 .top-text {
     margin: 22px 0px;
     margin-bottom: 15px;
@@ -50,6 +52,10 @@ body {
 .timer {
     margin-top: -60px;
     margin-bottom: 40px;
+
+    & .register {
+        margin-top: -50px;
+    }
 }
 
 .bg-image {
@@ -324,6 +330,13 @@ footer p {
     .hero-section {
         padding: 0;
 
+    }
+
+    .timer {
+
+        & .register {
+            margin-top: 20px;
+        }
     }
 
     .top-text {
