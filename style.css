@@ -64,16 +64,18 @@ body {
 .bg-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
+    padding: 20px 20px 0 20px;
 }
+
 
 
 .image-text p {
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 600;
 }
 
-.check-list p {
-    font-size: 11px;
+.check-list span {
+    font-size: 16px;
 }
 
 .play-btn {
@@ -97,9 +99,13 @@ body {
     margin-top: -30px;
 }
 
-.kartik-img {
-    margin-left: -20px;
+.kartik-img img {
+    margin-left: -50px;
+    width: 261px;
+    height: 325px;
 }
+
+
 
 .display-none {
     display: block;
@@ -347,6 +353,25 @@ footer p {
             font-size: 11px;
         }
 
+    }
+
+    .bg-overlay {
+        padding: 10px 10px 0 10px;
+    }
+
+    .kartik-img img {
+        margin-left: -20px;
+        width: 161px;
+        height: 100%;
+    }
+
+    .image-text p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .check-list span {
+        font-size: 11px;
     }
 
     .display-none {
