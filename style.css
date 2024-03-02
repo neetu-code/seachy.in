@@ -274,6 +274,10 @@ body {
     background-size: cover;
 }
 
+.display-img {
+    display: none;
+}
+
 .dark-bg .img img {
     width: 100%;
 }
@@ -445,6 +449,14 @@ footer p {
 
     .dark-bg .register {
         width: 100%;
+    }
+
+    .display-img {
+        display: inline;
+    }
+
+    .hide-mobile-img {
+        display: none;
     }
 
     .limited-seat {
